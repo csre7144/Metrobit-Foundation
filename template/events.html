@@ -1,0 +1,207 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>MetroBit Foundation Events</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+      <!-- style css -->
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+      <!-- fevicon -->
+      <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
+      <link rel="icon" href="{% static 'images/Logo 0045.png' %}" type="image/gif" />
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+      <!-- <div class="loader_bg">
+         <div class="loader"><img src="images/loading2.gif" alt="#"/></div>
+      </div> -->
+      <!-- end loader -->
+      <!-- header -->
+      <div class="header">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class=" col-md-2 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="{% url 'home' %}"><img src="{% static 'images/Logo 003.png' %}" alt="#" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-10">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item">
+                              <a class="nav-link" href="{% url 'home' %}">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="{% url 'about' %}">About</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end header inner -->
+      <!-- our class -->
+      <div class="class">
+         <div class="container-fluid">
+            <div class="titlepage text_align_center">
+               <h2>Our Events</h2>
+               <p>In the quiet whispers of change, a silent revolution unfolds on August 15, 2023, marking a profound shift towards a harmonious future.
+                  <br><br>
+                  marks a pivotal moment in history—a day when the world witnessed the birth of a silent revolution, a revolution not defined by marches or speeches, but by the quiet resolve of individuals to embrace change and strive for a better future.
+                  <br><br>
+                  As the sun rose on that fateful day, it cast its golden rays upon a world burdened by division, inequality, and uncertainty. Yet, amidst the chaos and clamor of the times, there emerged a collective yearning for something more—a longing for unity, compassion, and justice.
+                  <br><br>
+                  At the heart of this silent revolution lay the power of community—the coming together of people from all walks of life, bound by a shared vision of a more equitable and inclusive society. On the streets, in homes, and across digital platforms, individuals found solidarity in their determination to dismantle barriers and build bridges of understanding.
+                  <br><br>
+                  Moreover, the silent revolution of August 15, 2023, was characterized by a profound shift in consciousness—a recognition of the interconnectedness of all living beings and the imperative to act as stewards of the planet. From grassroots environmental initiatives to global advocacy campaigns, people around the world united in their commitment to safeguard the Earth for future generations.
+                  <br><br>
+                  Furthermore, marked a turning point in the struggle for equality and human rights. In the quiet moments of reflection and introspection, individuals confronted the systemic injustices that had long plagued society—from racial discrimination to gender inequality to economic disparity. With unwavering determination, they pledged to confront these injustices head-on and work towards a world where every person is treated with dignity and respect.
+               </p>
+            </div>
+            
+            <div class="row">
+               <!-- <div class="col-md-3 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="images/MF/21.jpg" alt="#"/></i>
+                  </div>
+               </div> -->
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/1.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{%  static 'images/MF/6.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/7.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/8.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/9.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/10.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <!-- <div class="col-md-3 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/11.jpg' %}" alt="#"/></i>
+                  </div>
+               </div> -->
+               <div class="col-md-12 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/12.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/13.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/14.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-4 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/16.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               
+               <div class="col-md-9 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/23.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+               <div class="col-md-3 margi_bottom">
+                  <div class="class_box1 text_align_center">
+                     <i><img src="{% static 'images/MF/3.1.jpg' %}" alt="#"/></i>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      <!-- end our class -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <h3>Follow us on</h3>
+               <div class="row">
+                  <ul class="social_icon">
+                     <!-- <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
+                     <li><a href="https://chat.whatsapp.com/DsCIjfaPxurHjyfieWhlHs"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.instagram.com/deaf_empower?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2024 All Rights Reserved By MetroBit Foundation</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+      <!-- sidebar -->
+      <script src="{% static 'js/sidebar.js' %}"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
